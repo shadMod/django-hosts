@@ -9,3 +9,5 @@ build/
 dist/
 .cache/
 .eggs/
+
+.idea
