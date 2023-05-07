@@ -7,7 +7,8 @@ from .checks import check_default_host, check_root_hostconf
 
 class HostsConfig(AppConfig):  # pragma: no cover
     name = 'django_hosts'
-    verbose_name = _('Hosts')
+
+    # verbose_name = _('Hosts')
 
     def ready(self):
         checks.register(check_root_hostconf)

@@ -1,6 +1,6 @@
 # flake8: noqa
-from django_hosts.defaults import patterns, host
-from django_hosts.resolvers import (
+from .defaults import patterns, host
+from .resolvers import (
     reverse,
     reverse_lazy,
     reverse_host,
